@@ -1,0 +1,69 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.rbc-header {
+  background: #79b8e4;
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.rbc-event {
+  padding: 0px !important;
+  border-radius: 0px !important;
+  border: none !important;
+  background-color: transparent !important;
+  z-index: 2;
+  position: relative;
+}
+
+.rbc-background-event {
+  padding: 0px !important;
+  border-radius: 0px !important;
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.rbc-event-label {
+  display: none !important;
+}
+
+.rbc-events-container {
+  width: 100% !important;
+}
+
+.rbc-timeslot-group {
+  min-height: 120px !important;
+}
+
+.rbc-day-slot .rbc-time-slot:after {
+  content: "";
+  width: 100%;
+  border-top: 1px solid lightblue;
+  display: block;
+}
+
+.rbc-time-slot {
+  background: #eaf3fa;
+  color: #74a4c3;
+  z-index: 1;
+}
+
+.rbc-addons-dnd-resizable {
+  height: 100%;
+  width: 100%;
+}
